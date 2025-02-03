@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.weather-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: url("https://www.awxcdn.com/adc-assets/images/hero/3/1024x450.jpg");
+}
+input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+.weather-info {
+  margin-top: 20px;
+}
